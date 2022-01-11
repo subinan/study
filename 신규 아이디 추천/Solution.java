@@ -15,7 +15,7 @@ class Solution {
 
 		if (len < 3 || len > 15)
 			return false;
-		if (new_id.charAt(0) == '.' || new_id.charAt(len -1) == '.')
+		if (new_id.charAt(0) == '.' || new_id.charAt(len - 1) == '.')
 			return false;
 		for (int i = 0; i < len; i++)
 		{
