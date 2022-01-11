@@ -51,12 +51,12 @@ class Solution {
 			if (ans_len >= 15)
 				break;
 		}
-        if (ans_len == 0)
+		if (ans_len == 0)
 		{
 			answer.append('a');
 			++ans_len;
 		}
-        if (answer.charAt(ans_len - 1) == '.')
+    		if (answer.charAt(ans_len - 1) == '.')
 		{
 			answer.deleteCharAt(ans_len - 1);
 			--ans_len;
