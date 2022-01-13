@@ -11,23 +11,21 @@ class Solution {
         return true;
     }
     public String solution(String[] participant, String[] completion) {
-        String ans = "";
-        Boolean []exist = new Boolean[100000];
-        int len = participant.length;
+        Boolean []attend = new Boolean[100000];
+        int len = completion.length;
 
         for (int i = 0; i < len; i++)
-            exist[i] = false;
-        for (String c:completion) {
+            attend[i] = false;
+        for (String p:participant) {
             for (int i = 0; i < len; i++) {
-                if (exist[i] == false && compare(participant[i], c)) {
-                    exist[i] = true;
+                if (attend[i] == false && compare(p, completion[i])) {
+                    attend[i] = true;
                     break;
                 }
+                if (i == len - 1)
+                    return p;
             }
         }
-        for (int i = 0; i < len; i++)
-            if (exist[i] == false)
-                ans = participant[i];
-        return ans;
+        return "";
     }
 }
