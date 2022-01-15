@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public Boolean compare(String s1, String s2) {
         int len1 = s1.length();
@@ -11,21 +13,14 @@ class Solution {
         return true;
     }
     public String solution(String[] participant, String[] completion) {
-        Boolean []attend = new Boolean[100000];
         int len = completion.length;
+        int i;
 
-        for (int i = 0; i < len; i++)
-            attend[i] = false;
-        for (String p:participant) {
-            for (int i = 0; i < len; i++) {
-                if (attend[i] == false && compare(p, completion[i])) {
-                    attend[i] = true;
-                    break;
-                }
-                if (i == len - 1)
-                    return p;
-            }
-        }
-        return "";
+        Arrays.sort(participant); 
+        Arrays.sort(completion);
+        for (i = 0; i < len; i++)
+            if (!compare(participant[i], completion[i]))
+                break;
+        return participant[i];
     }
 }
