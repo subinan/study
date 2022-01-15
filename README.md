@@ -24,3 +24,8 @@
 
 - [소수 만들기](https://github.com/subinan/study/tree/main/%EC%86%8C%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [완주하지 못한 선수](https://github.com/subinan/study/tree/main/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98)
+
+1월 15일 토요일
+
+- [K번째수](https://github.com/subinan/study/tree/main/K%EB%B2%88%EC%A7%B8%EC%88%98)
+- [모의고사](https://github.com/subinan/study/tree/main/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC)
