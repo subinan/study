@@ -24,3 +24,5 @@ class Solution {
         return participant[i];
     }
 }
+
+// https://coding-grandpa.tistory.com/entry/프로그래머스-완주하지-못한-선수-해시-Lv-1
