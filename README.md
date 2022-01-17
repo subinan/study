@@ -29,3 +29,11 @@
 
 - [K번째수](https://github.com/subinan/study/tree/main/K%EB%B2%88%EC%A7%B8%EC%88%98)
 - [모의고사](https://github.com/subinan/study/tree/main/%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC)
+
+1월 16일 일요일
+- [체육복](https://github.com/subinan/study/tree/main/%EC%B2%B4%EC%9C%A1%EB%B3%B5)
+- [폰켓몬](https://github.com/subinan/study/tree/main/%ED%8F%B0%EC%BC%93%EB%AA%AC)
+
+1월 17일 월요일
+- [약수의 개수와 덧셈](https://github.com/subinan/study/tree/main/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EC%99%80%20%EB%8D%A7%EC%85%88)
+- [가운데 글자 가져오기](https://github.com/subinan/study/tree/main/%EA%B0%80%EC%9A%B4%EB%8D%B0%20%EA%B8%80%EC%9E%90%20%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
