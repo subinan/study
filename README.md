@@ -1,5 +1,14 @@
 **Level 1**
 
+2월 1일 화요일
+- [자연수 뒤집어 배열로 만들기](https://github.com/subinan/study/tree/main/%EC%9E%90%EC%97%B0%EC%88%98%20%EB%92%A4%EC%A7%91%EC%96%B4%20%EB%B0%B0%EC%97%B4%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [정수 내림차순으로 배치하기](https://github.com/subinan/study/tree/main/%EC%A0%95%EC%88%98%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0)
+
+1월 31일 월요일
+- [신고 결과 받기](https://github.com/subinan/study/tree/main/%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0)
+- [자릿수 더하기](https://github.com/subinan/study/tree/main/%EC%9E%90%EB%A6%BF%EC%88%98%20%EB%8D%94%ED%95%98%EA%B8%B0)
+- [직사각형 별찍기](https://github.com/subinan/study/tree/main/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%B3%84%EC%B0%8D%EA%B8%B0)
+
 1월 30일 일요일
 - [약수의 합](https://github.com/subinan/study/tree/main/%EC%95%BD%EC%88%98%EC%9D%98%20%ED%95%A9)
 - [이상한 문자 만들기](https://github.com/subinan/study/tree/main/%EC%9D%B4%EC%83%81%ED%95%9C%20%EB%AC%B8%EC%9E%90%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
