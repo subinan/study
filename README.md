@@ -1,3 +1,10 @@
+**Level 2**
+
+2월 14일 월요일
+- [문자열 압축](https://github.com/subinan/study/tree/main/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95)
+- [오픈채팅방](https://github.com/subinan/study/tree/main/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9)
+
+
 **Level 1**
 
 2월 6일 일요일
