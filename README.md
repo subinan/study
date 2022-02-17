@@ -1,5 +1,17 @@
 **Level 2**
 
+2월 17일 목요일
+- [타켓 넘버](https://github.com/subinan/study/tree/main/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84)
+- [짝지어 제거하기](https://github.com/subinan/study/tree/main/%EC%A7%9D%EC%A7%80%EC%96%B4%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0)
+
+2월 16일 수요일
+- [기능개발](https://github.com/subinan/study/tree/main/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C)
+- [더 맵게](https://github.com/subinan/study/tree/main/%EB%8D%94%20%EB%A7%B5%EA%B2%8C)
+
+2월 15일 화요일
+- [멀쩡한 사각형](https://github.com/subinan/study/tree/main/%EB%A9%80%EC%A9%A1%ED%95%9C%20%EC%82%AC%EA%B0%81%ED%98%95)
+- [124 나라의 숫자](https://github.com/subinan/study/tree/main/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90)
+
 2월 14일 월요일
 - [문자열 압축](https://github.com/subinan/study/tree/main/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95)
 - [오픈채팅방](https://github.com/subinan/study/tree/main/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9)
