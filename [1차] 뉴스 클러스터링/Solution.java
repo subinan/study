@@ -27,9 +27,6 @@ class Solution {
             }
         }
         
-        Collections.sort(arr1);
-        Collections.sort(arr2);
-        
         ArrayList<String> intersection = new ArrayList<>();
         ArrayList<String> union = new ArrayList<>();
         
