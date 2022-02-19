@@ -1,5 +1,13 @@
 **Level 2**
 
+2월 19일 토요일
+- [괄호 변환](https://github.com/subinan/study/tree/main/%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98)
+- [[1차] 뉴스 클러스팅](https://github.com/subinan/study/tree/main/%5B1%EC%B0%A8%5D%20%EB%89%B4%EC%8A%A4%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81)
+
+2월 18일 금요일
+- [행렬 테두리 회전하기](https://github.com/subinan/study/tree/main/%ED%96%89%EB%A0%AC%20%ED%85%8C%EB%91%90%EB%A6%AC%20%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0)
+- [메뉴 리뉴얼](https://github.com/subinan/study/tree/main/%EB%A9%94%EB%89%B4%20%EB%A6%AC%EB%89%B4%EC%96%BC)
+
 2월 17일 목요일
 - [타켓 넘버](https://github.com/subinan/study/tree/main/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84)
 - [짝지어 제거하기](https://github.com/subinan/study/tree/main/%EC%A7%9D%EC%A7%80%EC%96%B4%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0)
