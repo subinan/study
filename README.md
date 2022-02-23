@@ -1,5 +1,14 @@
 **Level 2**
 
+2월 23일 수요일
+- [튜플](https://github.com/subinan/study/tree/main/%ED%8A%9C%ED%94%8C)
+
+2월 22일 화요일
+- [수식 최대화](https://github.com/subinan/study/tree/main/%5B%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%9D%B8%ED%84%B4%5D%20%EC%88%98%EC%8B%9D%20%EC%B5%9C%EB%8C%80%ED%99%94)
+
+2월 21일 월요일
+- [거리두기 확인하기](https://github.com/subinan/study/tree/main/%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0)
+
 2월 19일 토요일
 - [괄호 변환](https://github.com/subinan/study/tree/main/%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98)
 - [[1차] 뉴스 클러스팅](https://github.com/subinan/study/tree/main/%5B1%EC%B0%A8%5D%20%EB%89%B4%EC%8A%A4%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81)
