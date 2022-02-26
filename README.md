@@ -1,5 +1,17 @@
 **Level 2**
 
+2월 27일 일요일
+- [가장 큰 수](https://github.com/subinan/study/tree/main/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98)
+
+2월 26일 토요일
+- [프린터](https://github.com/subinan/study/tree/main/%ED%94%84%EB%A6%B0%ED%84%B0)
+
+2월 25일 금요일
+- [전화번호 목록](https://github.com/subinan/study/tree/main/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D)
+
+2월 24일 목요일
+- [빛의 경로 사이클](https://github.com/subinan/study/tree/main/%EB%B9%9B%EC%9D%98%20%EA%B2%BD%EB%A1%9C%20%EC%82%AC%EC%9D%B4%ED%81%B4)
+
 2월 23일 수요일
 - [튜플](https://github.com/subinan/study/tree/main/%ED%8A%9C%ED%94%8C)
 
