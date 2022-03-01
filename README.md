@@ -1,5 +1,8 @@
 **Level 2**
 
+2월 28일 월요일
+- [소수 찾기](https://github.com/subinan/study/tree/main/%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B02)
+
 2월 27일 일요일
 - [가장 큰 수](https://github.com/subinan/study/tree/main/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98)
 
