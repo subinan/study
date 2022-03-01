@@ -34,8 +34,10 @@ class Solution {
             if (!isNotPrime[num]) {
                 answer++;
             }
+        } else {
+            return;
         }
-
+        
         for (int i = 0; i < numbers.length(); i++) {
             if (!visited[i]) {
                 visited[i] = true;
