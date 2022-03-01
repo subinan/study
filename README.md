@@ -1,5 +1,11 @@
 **Level 2**
 
+3월 2일 수요일
+- [게임 맵 최단거리](https://github.com/subinan/study/tree/main/%EA%B2%8C%EC%9E%84%20%EB%A7%B5%20%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC)
+
+3월 1일 화요일
+- [조이스틱](https://github.com/subinan/study/tree/main/%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1)
+
 2월 28일 월요일
 - [소수 찾기](https://github.com/subinan/study/tree/main/%EC%86%8C%EC%88%98%20%EC%B0%BE%EA%B8%B02)
 
