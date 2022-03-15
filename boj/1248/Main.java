@@ -1,4 +1,5 @@
 // https://toastfactory.tistory.com/206
+// https://injae-kim.github.io/problem_solving/2020/02/22/baekjoon-1248.html
 
 import java.io.BufferedReader;
 import java.io.IOException;
