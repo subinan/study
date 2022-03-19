@@ -1,3 +1,6 @@
+// https://loosie.tistory.com/349
+// https://velog.io/@booorim98/BOJ-2504
+
 import java.util.*;
 
 public class Main {
