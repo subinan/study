@@ -1,60 +1,60 @@
-// https://velog.io/@booorim98/BOJ-2504
+// https://loosie.tistory.com/349
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.Stack;
-import java.util.StringTokenizer;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        char[] input = st.nextToken().toCharArray();
 
-        int ans = 0;
-        int multiple = 1;
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < input.length; i++) {
-            switch (input[i]) {
-                case '(':
-                    stack.push('(');
-                    multiple *= 2;
-                    break;
-                case '[':
-                    stack.push('[');
-                    multiple *= 3;
-                    break;
-                case ')':
-                    if (stack.isEmpty() || stack.peek() != '(') {
-                        ans = 0;
-                        break;
-                    }
-                    if (input[i - 1] == '(') {
-                        ans += multiple;
-                    }
-                    stack.pop();
-                    multiple /= 2;
-                    break;
-                case ']':
-                    if (stack.isEmpty() || stack.peek() != '[') {
-                        ans = 0;
-                        break;
-                    }
-                    if (input[i - 1] == '[') {
-                        ans += multiple;
-                    }
-                    stack.pop();
-                    multiple /= 3;
-                    break;
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
 
-            }
-        }
-
-        if (!stack.isEmpty()) {
-            System.out.println(0);
-        } else {
-            System.out.println(ans);
-        }
-    }
+		Stack<Character> st = new Stack<>();
+		boolean flag = true; 
+		int answer = 0;
+		int cnt = 1;
+		for(int i = 0; i < line.length(); i++) {
+			char cur = line.charAt(i);
+			if(cur == '(') {
+				st.push(cur);
+				cnt *= 2;
+			}
+			else if(cur == '[') {
+				st.push(cur);
+				cnt *= 3;
+			}
+			else {
+				if(cur == ')') {
+					if(st.isEmpty() || st.peek() != '(') {
+						flag = false;
+						break;
+					}
+					if(line.charAt(i - 1) =='(') {
+						answer += cnt;
+					}
+					st.pop();
+					cnt /= 2;
+				}else if(cur == ']') {
+					if(st.isEmpty() || st.peek() != '[') {
+						flag = false;
+						break;
+					}
+					if(line.charAt(i-1) == '[') {
+						answer += cnt;
+					}
+					st.pop();
+					cnt /= 3;
+				}
+				else {
+					flag = false;
+					break;
+				}
+			}
+		}
+		if(!flag || !st.isEmpty()) {
+			System.out.println(0);
+		}else {
+			System.out.println(answer);
+		}
+	}
 }
