@@ -1,4 +1,5 @@
-// https://st-lab.tistory.com/277
+// https://katfun.tistory.com/entry/백준-2110번-공유기-설치
+// 집들 사이의 거리를 기준으로 이분 탐색
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,45 +9,55 @@ import java.util.StringTokenizer;
 
 public class Main {
     static int N, C;
-    static int[] A;
+    static int[] X;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-      
+
         N = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
-        A = new int[N];
 
+        X = new int[N];
         for (int i = 0; i < N; i++) {
-            A[i] = Integer.parseInt(br.readLine());
+            X[i] = Integer.parseInt(br.readLine());
         }
-        Arrays.sort(A);
+        Arrays.sort(X);
 
-        int low = 1; // 가능한 최소 거리
-        int high = A[N - 1] - A[0] + 1; // 가능한 최대 거리
-
-        while (low < high) {
-            int mid = (low + high) / 2;
-          
-            if (getCount(mid) < C) {
-                high = mid;
-            } else {
-                low = mid + 1;
-            }
-        }
-        System.out.println(low - 1);
+        System.out.println(binarySearch());
     }
 
-    public static int getCount(int dis) {
-      int count = 1;
-      int prev = 0;
+    public static int binarySearch() {
+        int low = 1; // 두 집 사이의 거리 최솟값
+        int high = X[N - 1] - X[0] + 1; // 두 집 사이의 거리 최댓값
 
-      for (int i = 1; i < N; i++) {
-        if (A[i] - A[prev] >= dis) {
-          prev = i;
-          count++;
+        int ret = 0;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            if (check(mid)) {
+                ret = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
         }
-      }
-      return count;
+
+        return ret;
+    }
+
+    public static boolean check(int dis) {
+        int cnt = 1;
+        int prev = 0;
+
+        for (int i = 1; i < N; i++) {
+            if (X[i] - X[prev] >= dis) {
+                cnt++;
+                prev = i;
+            }
+        }
+
+        return (cnt >= C);
     }
 }
